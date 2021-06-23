@@ -23,6 +23,8 @@ import lombok.Setter;
 @Table
 public class Cliente {
 	
+	
+	
 	@EqualsAndHashCode.Include
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
